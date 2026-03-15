@@ -1,14 +1,15 @@
-# Satellite Attitude Control Simulation
+# Launch Vehicle IMU Fault Detection
 
-MATLAB simulation of satellite attitude stabilization using a PID controller.
+MATLAB simulation for detecting faults in an IMU used in a launch vehicle pitch control system.
 
 ## Features
-- Satellite rotational dynamics simulation
-- PID-based attitude stabilization
-- Disturbance response analysis
-- Output graphs for system performance
+- Simulation of launch vehicle pitch dynamics
+- IMU sensor modelling
+- Fault injection in sensor signals
+- Detection of abnormal sensor behavior
+- Visualization of system response
 
 ## Files
-satellite_attitude_control_pid.m – main MATLAB simulation code  
-Satellite_Attitude_Control_Report.pdf – detailed project report  
-Graphs/ – simulation result plots
+launch-vehicle-IMU-fault-detection.m – main MATLAB simulation code  
+Launch_Vehicle_IMU_Fault_Detection_Report.pdf – detailed project report  
+figures/ – output graphs from the simulation
